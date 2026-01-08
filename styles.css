@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
-    padding: 0;
+    padding: 20px ;
 }
 
 .container {
@@ -42,6 +42,8 @@ button {
 ul {
     list-style: none;
     padding: 0;
+    margin: 0 auto;
+    width: 800px;
 }
 
 li {
@@ -53,9 +55,4 @@ li {
     padding: 10px;
     margin-bottom: 10px;
     background-color: #fff;
-}
-
-.completed {
-    text-decoration: line-through;
-    color: #888;
 }
