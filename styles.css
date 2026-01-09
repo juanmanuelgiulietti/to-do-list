@@ -32,7 +32,17 @@ input[type="text"] {
 
 button {
     padding: 10px 20px;
-    background-color: #007bff;
+    background-color: #0f920fb7;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.delete{
+    padding: 10px 20px;
+    background-color: #FF0000;
     color: #fff;
     border: none;
     border-radius: 4px;
@@ -50,9 +60,16 @@ li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
     border: 1px solid #ccc;
     border-radius: 4px;
-    padding: 10px;
-    margin-bottom: 10px;
+    padding: 6px;
+    margin-bottom: 8px;
+    margin-top: 20px;
     background-color: #fff;
+}
+
+.completed {
+    text-decoration: line-through;
+    color: #888;
 }
